@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "%7Busername%7D.github.io/%7Brepo-name%7D/static/css/main.5f7fb0e7.chunk.css",
-    "main.js": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/main.0347376b.chunk.js",
-    "main.js.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/main.0347376b.chunk.js.map",
-    "runtime~main.js": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/runtime~main.bc0f63e2.js",
-    "runtime~main.js.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/runtime~main.bc0f63e2.js.map",
-    "static/css/2.266e55a5.chunk.css": "%7Busername%7D.github.io/%7Brepo-name%7D/static/css/2.266e55a5.chunk.css",
-    "static/js/2.3335a204.chunk.js": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/2.3335a204.chunk.js",
-    "static/js/2.3335a204.chunk.js.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/2.3335a204.chunk.js.map",
-    "index.html": "%7Busername%7D.github.io/%7Brepo-name%7D/index.html",
-    "precache-manifest.1b760f3991d23c89ce574f28758a1edf.js": "%7Busername%7D.github.io/%7Brepo-name%7D/precache-manifest.1b760f3991d23c89ce574f28758a1edf.js",
-    "service-worker.js": "%7Busername%7D.github.io/%7Brepo-name%7D/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.5f7fb0e7.chunk.css.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/css/main.5f7fb0e7.chunk.css.map"
+    "main.css": "/PIzzaBuilder/static/css/main.5f7fb0e7.chunk.css",
+    "main.js": "/PIzzaBuilder/static/js/main.856b8bb6.chunk.js",
+    "main.js.map": "/PIzzaBuilder/static/js/main.856b8bb6.chunk.js.map",
+    "runtime~main.js": "/PIzzaBuilder/static/js/runtime~main.edf5907a.js",
+    "runtime~main.js.map": "/PIzzaBuilder/static/js/runtime~main.edf5907a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/PIzzaBuilder/static/css/2.266e55a5.chunk.css",
+    "static/js/2.0e55680f.chunk.js": "/PIzzaBuilder/static/js/2.0e55680f.chunk.js",
+    "static/js/2.0e55680f.chunk.js.map": "/PIzzaBuilder/static/js/2.0e55680f.chunk.js.map",
+    "index.html": "/PIzzaBuilder/index.html",
+    "precache-manifest.ca55dda1ae34e318369f2357074f34f2.js": "/PIzzaBuilder/precache-manifest.ca55dda1ae34e318369f2357074f34f2.js",
+    "service-worker.js": "/PIzzaBuilder/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/PIzzaBuilder/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.5f7fb0e7.chunk.css.map": "/PIzzaBuilder/static/css/main.5f7fb0e7.chunk.css.map"
   }
 }
