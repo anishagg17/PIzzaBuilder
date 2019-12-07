@@ -1,11 +1,27 @@
 import React from "react";
 import ChatBot from "react-simple-chatbot";
-function CustomChatbot(props) {
-    const config = {
+import { ThemeProvider } from 'styled-components';
+
+const theme = {
+  background: '#f5f8fb',
+  fontFamily: 'Helvetica Neue',
+  headerBgColor: '#222',
+  headerFontColor: '#fff',
+  headerFontSize: '15px',
+  botBubbleColor: '#17a',
+  botFontColor: '#fff',
+  userBubbleColor: '#777',
+  userFontColor: '#fff',
+};
+const config = {
       width: "300px",
       height: "400px",
-      floating: true
-    };
+      floating: true,
+      headerTitle : "PizzaBot",
+  };
+
+function CustomChatbot(props) {
+    
     const steps = [
         {
            id: "Greet",
@@ -74,7 +90,7 @@ function CustomChatbot(props) {
                         value: true,
                         label: "Yes",
                         trigger: () => {
-                           props.eventHandler("tomato");
+                           props.eventHandler("tomato","true");
                            return "Asking for Mushroom in Pizza"  
                          }
                       },
@@ -82,7 +98,7 @@ function CustomChatbot(props) {
                         value: "false",
                         label: "No",
                         trigger: () => {
-                            props.eventHandler("tomato");
+                            props.eventHandler("tomato","false");
                             return "Asking for Mushroom in Pizza"  
                         }
                         // trigger: "Asking for Mushroom in Pizza"
@@ -103,7 +119,7 @@ function CustomChatbot(props) {
                         value: true,
                         label: "Yes",
                         trigger: () => {
-                           props.eventHandler("mushroom");
+                           props.eventHandler("mushroom","true");
                            return "Asking for Corn in Pizza"  
                          }
                       },
@@ -111,7 +127,7 @@ function CustomChatbot(props) {
                         value: "false",
                         label: "No",
                         trigger: () => {
-                            props.eventHandler("mushroom");
+                            props.eventHandler("mushroom","false");
                             return "Asking for Corn in Pizza"  
                         }
                         // trigger: "Asking for Corn in Pizza"
@@ -131,7 +147,7 @@ function CustomChatbot(props) {
                         value: true,
                         label: "Yes",
                         trigger: () => {
-                           props.eventHandler("corn");
+                           props.eventHandler("corn","true");
                            return "Asking for Veggies in Pizza"  
                          }
                       },
@@ -139,7 +155,7 @@ function CustomChatbot(props) {
                         value: "false",
                         label: "No",
                         trigger: () => {
-                            props.eventHandler("corn");
+                            props.eventHandler("corn","false");
                             return "Asking for Veggies in Pizza"  
                         }
                         // trigger: "Asking for Veggies in Pizza"
@@ -160,7 +176,7 @@ function CustomChatbot(props) {
                         value: true,
                         label: "Yes",
                         trigger: () => {
-                           props.eventHandler("veggie");
+                           props.eventHandler("veggie","true");
                            return "Done"  
                          }
                       },
@@ -168,7 +184,7 @@ function CustomChatbot(props) {
                         value: "false",
                         label: "No",
                         trigger: () => {
-                            props.eventHandler("veggie");
+                            props.eventHandler("veggie","false");
                             return "Done"  
                         }
                         // trigger: "Done"
@@ -182,6 +198,12 @@ function CustomChatbot(props) {
         }
 ];
     
-    return <ChatBot steps={steps} {...config} />;
+    return (
+      <ThemeProvider theme={theme}>
+        <ChatBot steps={steps} {...config}
+          //  speechSynthesis={{ enable: true, lang: 'en' }}
+         />
+      </ThemeProvider>
+  );
 }
 export default CustomChatbot;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Pizza.css";
 import CustomChatbot from '../CustomChatbot';
+import HiddenChatbot from '../HiddenChatbot';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Base from "../base/Base";
 import Tomato from "../tomato/Tomato";
@@ -17,23 +18,44 @@ class Pizza extends Component {
       corn: false
   };
 
-  clickEventHandler = ingredient => {
-    if (ingredient === "tomato") {
-      this.setState({
-        tomato: !this.state.tomato
-      });
-    } else if (ingredient === "mushroom") {
-      this.setState({
-        mushroom: !this.state.mushroom
-      });
-    } else if (ingredient === "corn") {
-      this.setState({
-        corn: !this.state.corn
-      });
-    } else {
-      this.setState({
-        veggie: !this.state.veggie
-      });
+  clickEventHandler = (ingredient,from) => {
+    if(from=="btn"){
+      if (ingredient === "tomato") {
+        this.setState({
+          tomato: !this.state.tomato
+        });
+      } else if (ingredient === "mushroom") {
+        this.setState({
+          mushroom: !this.state.mushroom
+        });
+      } else if (ingredient === "corn") {
+        this.setState({
+          corn: !this.state.corn
+        });
+      } else {
+        this.setState({
+          veggie: !this.state.veggie
+        });
+      }
+    }
+    else{
+      if (ingredient === "tomato") {
+        this.setState({
+          tomato: (from=="true")?true:false
+        });
+      } else if (ingredient === "mushroom") {
+        this.setState({
+          mushroom: (from=="true")?true:false
+        });
+      } else if (ingredient === "corn") {
+        this.setState({
+          corn: (from=="true")?true:false
+        });
+      } else {
+        this.setState({
+          veggie: (from=="true")?true:false
+        });
+      }
     }
   };
 
@@ -56,7 +78,10 @@ class Pizza extends Component {
             </div>
           </div>
           <ButtonGroup eventHandler={this.clickEventHandler} />
-          <CustomChatbot eventHandler={this.clickEventHandler} />
+          <div style={{display: "none",}}>
+            <HiddenChatbot/> 
+          </div>
+           <CustomChatbot eventHandler={this.clickEventHandler} /> 
         </div>
       </div>
     );

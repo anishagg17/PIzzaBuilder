@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PIzzaBuilder/static/css/main.5f7fb0e7.chunk.css",
-    "main.js": "/PIzzaBuilder/static/js/main.856b8bb6.chunk.js",
-    "main.js.map": "/PIzzaBuilder/static/js/main.856b8bb6.chunk.js.map",
+    "main.js": "/PIzzaBuilder/static/js/main.8944c317.chunk.js",
+    "main.js.map": "/PIzzaBuilder/static/js/main.8944c317.chunk.js.map",
     "runtime~main.js": "/PIzzaBuilder/static/js/runtime~main.edf5907a.js",
     "runtime~main.js.map": "/PIzzaBuilder/static/js/runtime~main.edf5907a.js.map",
     "static/css/2.266e55a5.chunk.css": "/PIzzaBuilder/static/css/2.266e55a5.chunk.css",
-    "static/js/2.0e55680f.chunk.js": "/PIzzaBuilder/static/js/2.0e55680f.chunk.js",
-    "static/js/2.0e55680f.chunk.js.map": "/PIzzaBuilder/static/js/2.0e55680f.chunk.js.map",
+    "static/js/2.ed8876c9.chunk.js": "/PIzzaBuilder/static/js/2.ed8876c9.chunk.js",
+    "static/js/2.ed8876c9.chunk.js.map": "/PIzzaBuilder/static/js/2.ed8876c9.chunk.js.map",
     "index.html": "/PIzzaBuilder/index.html",
-    "precache-manifest.ca55dda1ae34e318369f2357074f34f2.js": "/PIzzaBuilder/precache-manifest.ca55dda1ae34e318369f2357074f34f2.js",
+    "precache-manifest.5ff1ef0ec42f8865ca31174087c26ddf.js": "/PIzzaBuilder/precache-manifest.5ff1ef0ec42f8865ca31174087c26ddf.js",
     "service-worker.js": "/PIzzaBuilder/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/PIzzaBuilder/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.5f7fb0e7.chunk.css.map": "/PIzzaBuilder/static/css/main.5f7fb0e7.chunk.css.map"

@@ -11,7 +11,7 @@ function ButtonGroup(props) {
           className="btn btn-danger btn-block"
           style={buttonWidth}
           onClick={() => {
-            props.eventHandler("tomato");
+            props.eventHandler("tomato","btn");
           }}
         >
           Add/Remove Tomato
@@ -23,7 +23,7 @@ function ButtonGroup(props) {
           className="btn btn-secondary btn-block"
           style={buttonWidth}
           onClick={() => {
-            props.eventHandler("mushroom");
+            props.eventHandler("mushroom","btn");
           }}
         >
           Add/Remove Mushroom
@@ -35,7 +35,7 @@ function ButtonGroup(props) {
           className="btn btn-warning btn-block"
           style={buttonWidth}
           onClick={() => {
-            props.eventHandler("corn");
+            props.eventHandler("corn","btn");
           }}
         >
           Add/Remove Corn
@@ -47,7 +47,7 @@ function ButtonGroup(props) {
           className="btn btn-success 1-block"
           style={buttonWidth}
           onClick={() => {
-            props.eventHandler("veggie");
+            props.eventHandler("veggie","btn");
           }}
         >
           Add/Remove Veggie

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54312d891c2c7c5ae7ab52eaacc33183",
+    "revision": "4731002e3a81f7aa25b1edeb3ebaf52e",
     "url": "/PIzzaBuilder/index.html"
   },
   {
-    "revision": "aa7c05e91808415c23fe",
+    "revision": "f68330bedd6744728b9f",
     "url": "/PIzzaBuilder/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "8c9ac9376f264c09dfaf",
+    "revision": "bc33c918a3117083a949",
     "url": "/PIzzaBuilder/static/css/main.5f7fb0e7.chunk.css"
   },
   {
-    "revision": "aa7c05e91808415c23fe",
-    "url": "/PIzzaBuilder/static/js/2.0e55680f.chunk.js"
+    "revision": "f68330bedd6744728b9f",
+    "url": "/PIzzaBuilder/static/js/2.ed8876c9.chunk.js"
   },
   {
-    "revision": "8c9ac9376f264c09dfaf",
-    "url": "/PIzzaBuilder/static/js/main.856b8bb6.chunk.js"
+    "revision": "bc33c918a3117083a949",
+    "url": "/PIzzaBuilder/static/js/main.8944c317.chunk.js"
   },
   {
     "revision": "9b3802d7396562afd582",
