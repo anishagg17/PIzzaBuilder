@@ -8,9 +8,11 @@ https://medium.com/javascript-in-plain-english/may-i-help-you-build-a-chatbot-in
 
 You need to install NodeJs with NPM . You'll also need to install and configure Git .
 Latest version of Chrome
+
 `Step 2: Clone the project`
 
 git clone https://github.com/anishagg17/PIzzaBuilder.git
+
 `Step 3: Install node packages`
 
 Step inside the project root folder and issue the following command to install node dependencies.
